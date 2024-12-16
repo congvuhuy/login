@@ -1,0 +1,15 @@
+D:\Ord\OrdDemoWeb\backend\backend.Application\bin\Debug\net8.0\backend.Application.deps.json
+D:\Ord\OrdDemoWeb\backend\backend.Application\bin\Debug\net8.0\backend.Application.dll
+D:\Ord\OrdDemoWeb\backend\backend.Application\bin\Debug\net8.0\backend.Application.pdb
+D:\Ord\OrdDemoWeb\backend\backend.Application\bin\Debug\net8.0\backend.Domain.dll
+D:\Ord\OrdDemoWeb\backend\backend.Application\bin\Debug\net8.0\backend.Domain.pdb
+D:\Ord\OrdDemoWeb\backend\backend.Application\obj\Debug\net8.0\backend.Application.csproj.AssemblyReference.cache
+D:\Ord\OrdDemoWeb\backend\backend.Application\obj\Debug\net8.0\backend.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ord\OrdDemoWeb\backend\backend.Application\obj\Debug\net8.0\backend.Application.AssemblyInfoInputs.cache
+D:\Ord\OrdDemoWeb\backend\backend.Application\obj\Debug\net8.0\backend.Application.AssemblyInfo.cs
+D:\Ord\OrdDemoWeb\backend\backend.Application\obj\Debug\net8.0\backend.Application.csproj.CoreCompileInputs.cache
+D:\Ord\OrdDemoWeb\backend\backend.Application\obj\Debug\net8.0\backend..39599843.Up2Date
+D:\Ord\OrdDemoWeb\backend\backend.Application\obj\Debug\net8.0\backend.Application.dll
+D:\Ord\OrdDemoWeb\backend\backend.Application\obj\Debug\net8.0\refint\backend.Application.dll
+D:\Ord\OrdDemoWeb\backend\backend.Application\obj\Debug\net8.0\backend.Application.pdb
+D:\Ord\OrdDemoWeb\backend\backend.Application\obj\Debug\net8.0\ref\backend.Application.dll

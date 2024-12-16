@@ -1,0 +1,11 @@
+D:\Ord\OrdDemoWeb\backend\backend.Domain\bin\Debug\net8.0\backend.Domain.deps.json
+D:\Ord\OrdDemoWeb\backend\backend.Domain\bin\Debug\net8.0\backend.Domain.dll
+D:\Ord\OrdDemoWeb\backend\backend.Domain\bin\Debug\net8.0\backend.Domain.pdb
+D:\Ord\OrdDemoWeb\backend\backend.Domain\obj\Debug\net8.0\backend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ord\OrdDemoWeb\backend\backend.Domain\obj\Debug\net8.0\backend.Domain.AssemblyInfoInputs.cache
+D:\Ord\OrdDemoWeb\backend\backend.Domain\obj\Debug\net8.0\backend.Domain.AssemblyInfo.cs
+D:\Ord\OrdDemoWeb\backend\backend.Domain\obj\Debug\net8.0\backend.Domain.csproj.CoreCompileInputs.cache
+D:\Ord\OrdDemoWeb\backend\backend.Domain\obj\Debug\net8.0\backend.Domain.dll
+D:\Ord\OrdDemoWeb\backend\backend.Domain\obj\Debug\net8.0\refint\backend.Domain.dll
+D:\Ord\OrdDemoWeb\backend\backend.Domain\obj\Debug\net8.0\backend.Domain.pdb
+D:\Ord\OrdDemoWeb\backend\backend.Domain\obj\Debug\net8.0\ref\backend.Domain.dll
