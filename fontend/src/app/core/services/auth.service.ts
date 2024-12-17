@@ -26,6 +26,6 @@ export class AuthService {
     return now < expiry;
   }
   logout(): void {
-    localStorage.removeItem('jwtToken');
+    localStorage.clear();
   }
 }

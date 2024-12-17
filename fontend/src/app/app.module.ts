@@ -10,21 +10,23 @@ import {CommonModule} from "@angular/common";
 import {AuthModule} from "./features/auth/auth.module";
 import {CoreModule} from "./core/core.module";
 import {FeaturesModule} from "./features/features.module";
+import {LayoutModule} from "./layout/layout.module";
 
 @NgModule({
   declarations: [
     AppComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule,
-    ReactiveFormsModule,
-    HttpClientModule,
-    AuthModule,
-    CoreModule,
-    CommonModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        FormsModule,
+        ReactiveFormsModule,
+        HttpClientModule,
+        AuthModule,
+        CoreModule,
+        CommonModule,
+        LayoutModule
+    ],
   providers: [
     {provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true},
   ],

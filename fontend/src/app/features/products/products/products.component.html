@@ -1,19 +1,141 @@
-<div class="container mt-4">
-  <h2 class="mb-4">Product Table</h2>
-  <table class="table table-bordered table-hover">
-    <thead class="thead-light">
-    <tr>
-      <th scope="col">STT</th>
-      <th scope="col">Name</th>
-      <th scope="col">Price</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr *ngFor="let item of productList; let i = index">
-      <td>{{ i + 1 }}</td>
-      <td>{{ item.name }}</td>
-      <td>{{ item.price  }}</td>
-    </tr>
-    </tbody>
-  </table>
+<!--<div class="container mt-4">-->
+<!--  <h2 class="mb-4">Product Table</h2>-->
+<!--  <table class="table table-bordered table-hover">-->
+<!--    <thead class="thead-light">-->
+<!--    <tr>-->
+<!--      <th scope="col">STT</th>-->
+<!--      <th scope="col">Name</th>-->
+<!--      <th scope="col">Price</th>-->
+<!--    </tr>-->
+<!--    </thead>-->
+<!--    <tbody>-->
+<!--    <tr *ngFor="let item of productList; let i = index">-->
+<!--      <td>{{ i + 1 }}</td>-->
+<!--      <td>{{ item.name }}</td>-->
+<!--      <td>{{ item.price  }}</td>-->
+<!--    </tr>-->
+<!--    </tbody>-->
+<!--  </table>-->
+<!--</div>-->
+<div class="row container-fluid">
+  <!--product list-->
+  <div class="col-md-8 col-sm-12">
+    <div class="card mb-4">
+      <div class="card-header pb-0">
+        <h6>Product table</h6>
+      </div>
+      <div class="card-body px-0 pt-0 pb-2">
+        <div class="table-responsive p-0">
+          <table class="table align-items-center mb-0">
+            <thead>
+            <tr>
+              <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Stt</th>
+              <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Product Name</th>
+              <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Price</th>
+<!--              <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ">Unit Sold</th>-->
+<!--              <th class="text-center text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">In Stock</th>-->
+<!--              <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Exprire Date</th>-->
+<!--              <th colspan="2" class="text-secondary opacity-7 ">-->
+<!--&lt;!&ndash;                <a class="btn btn-outline-success" (click)="openForm('add', null)">Create</a>&ndash;&gt;-->
+<!--              </th>-->
+            </tr>
+            </thead>
+            <tbody >
+<!--            <tr id="pro{{pro.productCode}}" >-->
+            <tr *ngFor="let pro of productList;let i=index">
+              <td>
+                <div class="d-flex px-2 py-1">
+                  <div class="d-flex flex-column justify-content-center">
+                    <h6 class="text-center mb-0 text-sm">{{i+1}}</h6>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="d-flex px-2 py-1">
+                  <div class="d-flex flex-column justify-content-center">
+                    <h6 class="text-center mb-0 text-sm">{{pro.name}}</h6>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="d-flex px-2 py-1">
+                  <div class="d-flex flex-column justify-content-center">
+                    <h6 class="text-center mb-0 text-sm">{{pro.price}}</h6>
+                  </div>
+                </div>
+              </td>
+<!--              <td class="">-->
+<!--                <a routerLink="#" (click)="openForm('edit', pro)" class="btn btn-outline-info text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">-->
+<!--                  Edit-->
+<!--                </a>-->
+<!--              </td>-->
+<!--              <td class="">-->
+<!--                <a routerLink="#" (click)="deleteProduct(pro.productCode)"  class="text-secondary btn btn-outline-danger font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">-->
+<!--                  Delete-->
+<!--                </a>-->
+<!--              </td>-->
+            </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+<!--    <div class="overlay" *ngIf="showForm" (click)="closeForm()"></div>-->
+<!--    <app-product-form class="form-product" *ngIf="showForm" [product]="selectedProduct" [mode]="formMode" (closeForm)="closeForm()" (formSubmit)="handleFormSubmit($event)"></app-product-form>-->
+
+  </div>
+
+  <!--product category-->
+<!--  <div class="col-md-4 col-sm-12">-->
+<!--    <div class="card mb-4">-->
+<!--      <div class="card-header pb-0">-->
+<!--        <h6>Product Category table</h6>-->
+<!--      </div>-->
+<!--      <div class="card-body px-0 pt-0 pb-2">-->
+<!--        <div class="table-responsive p-0">-->
+<!--          <table class="table align-items-center mb-0">-->
+<!--            <thead>-->
+<!--            <tr>-->
+<!--              <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">id</th>-->
+<!--              <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Category Name</th>-->
+<!--              <th colspan="2" class="text-secondary opacity-7 ">-->
+<!--                &lt;!&ndash;<a class="btn btn-outline-success" (click)="openForm('add', null)">Create</a>&ndash;&gt;-->
+<!--              </th>-->
+<!--            </tr>-->
+<!--            </thead>-->
+<!--            <tbody *ngFor="let proCate of productCategorySource">-->
+<!--            <tr id="pro{{proCate.id}}" >-->
+<!--              <td>-->
+<!--                <div class="d-flex px-2 py-1">-->
+<!--                  <div class="d-flex flex-column justify-content-center">-->
+<!--                    <h6 class="mb-0 text-sm">{{proCate.id}}</h6>-->
+
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </td>-->
+<!--              <td>-->
+<!--                <p class="text-xs font-weight-bold mb-0">{{proCate.name}}</p>-->
+<!--                &lt;!&ndash;<p class="text-xs text-secondary mb-0">Organization</p>&ndash;&gt;-->
+<!--              </td>-->
+<!--              &lt;!&ndash;-->
+<!--              <td class="">-->
+<!--                <a href="#"  class="btn btn-outline-info text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">-->
+<!--                  Edit-->
+<!--                </a>-->
+<!--              </td>&ndash;&gt;-->
+<!--              <td class="">-->
+<!--                <a routerLink="#" (click)="deleteProductCategory(proCate.id)"  class="text-secondary btn btn-outline-danger font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">-->
+<!--                  Delete-->
+<!--                </a>-->
+<!--              </td>-->
+<!--            </tr>-->
+
+<!--            </tbody>-->
+<!--          </table>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+  <!--<app-product-form *ngIf="showForm" [product]="selectedProduct" [mode]="formMode" (closeForm)="closeForm()" (formSubmit)="handleFormSubmit($event)"></app-product-form>-->
 </div>

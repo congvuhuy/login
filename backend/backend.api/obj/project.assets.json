@@ -901,24 +901,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\congv\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ord\\OrdDemoWeb\\backend\\backend.api\\backend.api.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\DemoLogin\\login\\backend\\backend.api\\backend.api.csproj",
       "projectName": "backend.api",
-      "projectPath": "D:\\Ord\\OrdDemoWeb\\backend\\backend.api\\backend.api.csproj",
-      "packagesPath": "C:\\Users\\congv\\.nuget\\packages\\",
-      "outputPath": "D:\\Ord\\OrdDemoWeb\\backend\\backend.api\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\DemoLogin\\login\\backend\\backend.api\\backend.api.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\DemoLogin\\login\\backend\\backend.api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\congv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -932,11 +927,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Ord\\OrdDemoWeb\\backend\\backend.Application\\backend.Application.csproj": {
-              "projectPath": "D:\\Ord\\OrdDemoWeb\\backend\\backend.Application\\backend.Application.csproj"
+            "C:\\Users\\Admin\\Desktop\\DemoLogin\\login\\backend\\backend.Application\\backend.Application.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\DemoLogin\\login\\backend\\backend.Application\\backend.Application.csproj"
             },
-            "D:\\Ord\\OrdDemoWeb\\backend\\backend.Infrastructure\\backend.Infrastructure.csproj": {
-              "projectPath": "D:\\Ord\\OrdDemoWeb\\backend\\backend.Infrastructure\\backend.Infrastructure.csproj"
+            "C:\\Users\\Admin\\Desktop\\DemoLogin\\login\\backend\\backend.Infrastructure\\backend.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\DemoLogin\\login\\backend\\backend.Infrastructure\\backend.Infrastructure.csproj"
             }
           }
         }
@@ -945,13 +940,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -985,7 +974,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

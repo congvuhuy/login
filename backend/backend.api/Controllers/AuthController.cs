@@ -24,7 +24,7 @@ namespace backend.api.Controllers
             try
             {
                 var token = _authService.Authenticate(loginRequest.Username, loginRequest.Password);
-                return Ok(new { Token = token });
+                return Ok(new { Token = token ,username=loginRequest.Username});
             }
             catch (UnauthorizedAccessException)
             {

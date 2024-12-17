@@ -1,1 +1,71 @@
-<p>profile works!</p>
+<div class="container card col-md-6 mt-5">
+  <h2>Thông tin cá nhân</h2>
+  <div class="text-center">
+    <img style="width:100px; border-radius: 100px" src="/assets/img/bruce-mars.jpg">
+  </div>
+  <div style="display: none" class="form-Img">
+    <img src="#">
+    <div class="col-md-6 align-items-center justify-content-between">
+      <label for="file" class="form-label">Upload File</label>
+      <input id="file" type="file"  class="form-control">
+    </div>
+    <div class="col-md-12">
+      <button type="button"  class="btn btn-primary">Lưu</button>
+      <button type="button"  class="btn btn-primary">Huỷ</button>
+    </div>
+
+  </div>
+  <div class="overlay" ></div>
+  <form class="row g-3">
+    <div class="col-md-6 align-items-center justify-content-between">
+      <label class="form-label">Họ và Tên</label>
+      <input [value]="username" type="text"  name="fullName" class="form-control" >
+    </div>
+    <!--    <div class="col-md-6 align-items-center justify-content-between">-->
+    <!--      <label for="name" class="form-label">Tên hiển thị</label>-->
+    <!--      <input id="name" type="text" [(ngModel)]="name" name="name" class="form-control" >-->
+    <!--    </div>-->
+    <div class="col-md-6 align-items-center justify-content-between">
+      <label for="ngaySinh" class="form-label">Ngày sinh</label>
+      <input id="ngaySinh"  type="date"   name="ngaySinh" class="form-control" >
+    </div>
+    <div class="col-md-12 align-items-center justify-content-between">
+      <label for="gioiTinh" class="form-label">Giới tính</label>
+      <label>
+        <input  type="radio" id="gioiTinh"  name="gioiTinh" value="0" class="" >
+        Nam
+      </label>
+      <label>
+        <input  type="radio" id="gioiTinh"  name="gioiTinh" value="1"  class="" >
+        Nữ
+      </label>
+    </div>
+    <div class="col-md-6 align-items-center justify-content-between">
+      <label for="address" class="form-label">Địa chỉ</label>
+      <input id="address" type="text"  name="address" class="form-control" >
+    </div>
+<!--    <div class="col-md-6 align-items-center justify-content-between">-->
+<!--      <label for="tinh" class="form-label">Tỉnh</label>-->
+<!--      <select id="tinh" [(ngModel)]="maTinh" name="tinh" (change)="onTinhChange()" class="form-control">-->
+<!--        <option *ngFor="let itemTinh of listtinh" [value]="itemTinh.maTinh">{{itemTinh.tenTinh}}</option>-->
+<!--      </select>-->
+<!--    </div>-->
+<!--    <div class="col-md-6 align-items-center justify-content-between">-->
+<!--      <label for="huyen" class="form-label">Huyện</label>-->
+<!--      <select id="huyen" [(ngModel)]="maHuyen" name="huyen" (change)="onHuyenChange()" class="form-control">&lt;!&ndash;(change)="onHuyenChange()"&ndash;&gt;-->
+<!--        <option *ngFor="let itemHuyen of listhuyen" [value]="itemHuyen.maHuyen">{{itemHuyen.tenHuyen}}</option>-->
+<!--      </select>-->
+<!--    </div>-->
+<!--    <div class="col-md-6 align-items-center justify-content-between">-->
+<!--      <label for="xa" class="form-label">Xã</label>-->
+<!--      <select id="xa" [(ngModel)]="maXa" name="xa" class="form-control">-->
+<!--        <option *ngFor="let itemXa of listxa" [value]="itemXa.value">{{itemXa.tenXa}}</option>-->
+<!--      </select>-->
+<!--    </div>-->
+
+    <div class="col-md-12">
+      <button type="submit" class="btn btn-primary">Lưu</button>
+    </div>
+  </form>
+</div>
+
